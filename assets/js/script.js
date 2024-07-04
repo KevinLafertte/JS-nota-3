@@ -73,13 +73,6 @@ function windowsClose(){
 
 
 
-
-$('.cuerpo-pikachu').fadeOut(2000, function() {
-  $('#mensaje-nuevo').html('¡TE LO DIJE!. HAZ MATADO A PIKACHU, LO DESINTEGRASTE :(.').fadeIn(1000);
-});
-
-
-
 $(document).ready(function() {
 
 
