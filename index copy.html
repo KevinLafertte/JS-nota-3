@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cosmic-Existence</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse text-center" id="main-menu">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="px-2"><a class="hover-menu" href="index.html">Inicio</a></li>
+                    <li class="px-2"><a class="hover-menu" href="#">Traducir</a></li>
+ 
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Sección banner -->
+    <section class="contenedor-banner">
+
+            <img class="img-fluid fondo-banner" src="assets/img/fondodegradado.png" alt="Planeta neptuno"  />
+                <div class="promo">
+                    <div class="col-md-6">
+                        <h1>Cosmic - <span>Existence</span></h1>  
+                        <input class="inputDecorado" type="text" id="bienvenidaInput" placeholder="Ingresa tu nombre">
+                        <p id="bienvenidaNombre"></p>
+                        <a onClick="return confirm('ANTES DE COMENZAR A INTERACTUAR CON EL SITIO DEBE COMPRENDER QUE ESTE ES UN DEMO TIPO CIRCO, EN DONDE SE IRAN MOSTRANDO DIVERSAS FUNCIONES DE JAVASCRIPT SIN MAS PROPOCITO QUE MOSTRAR SUS FUNCIONES. Como por ejemplo este manejo del BOM. Ahora si, ¡Continuemos!.')" id="bienvenida" class="btn" href="#">Apriètame</a>
+                     </div>
+                </div>
+                    
+    </section>
+    <!-- Cierre Sección banner -->
+
+
+    <!-- Sección productos telescópios-->
+    <section class="contenedor-banner-productos  mb-5 pb-5 ">
+    
+        <img class="img-fluid fondo-banner" src="assets/img/imagen_inicio_1-degradado3.png" alt="Planeta saturno"  />
+            <div class="promo-productos">
+                <div class="col-md-12 mx-auto">
+                    <h2>Los intestinos de tu <span>dispotisivo</span></h2>
+                    <p class="parrafoDispositivo">Aprieta el boton para saber con detalles la info al detalle de tu dispositivo</p>
+                    <p id="infoNavegadorResultado"></p>
+                    <a id="infoNavegador" class="btn">Mostrar</a>
+                </div>
+            </div>  
+    </section>
+<!-- Cierre Sección productos telescópios-->
+
+
+<section class="contenedor-banner mt-5 mb-5 pb-5">
+    
+
+            <img id="cambiarJupiter" class="img-fluid fondo-banner" src="assets/img/pluton.jpg" alt="Planeta neptuno"  />
+       
+            <div class="plutonFome">
+                <div class="col-md-8 mx-auto">
+                    <h1 id="jupiter"><span>Plutòn</span></h1>
+                    <p id ="jupiterParrafo">No sè tù, pluton me gusta, pero la verdad prefeririria <br>
+                        ver otro planeta. ¿Què opinas?.<br>
+                        aprieta el botòn de abajo si prefieres cambiarlo.
+                    </p>
+                    <a id="pluton" class="btn">Cambiar</a>
+                </div>
+            </div>
+ 
+</section>
+
+
+
+
+<section class="contenedor-ventana mt-5 pt-5 mb-5 pb-5  ">
+    
+        <div class=" col-md-12 ventanaConfig">
+            <div class="col-md-12 mx-auto">
+                <h2>Aprieta el botòn de abajo para abrir una nueva <span>ventana</span></h2>
+                <p>Al apretar el botòn se abrirà una nueva pantalla con ancho y alturas defininidos.</p>
+                <a id="ventana" class="btn">Mostrar ventana</a>
+            </div>
+        </div>  
+</section>
+
+
+
+<!--Sección fotografías -->
+<div class="container ultimasFotos py-5 mt-5" id="posicionUltimasFotos">
+    <h2>ÚLTIMAS <span>FOTOGRAFÍAS</span></h2>
+    
+        <div class="row justify-content-center mt-5" id="posicion-card"> <!-- Fila tarjetas -->
+
+                <!-- Carta nebulosa -->
+                <div class="col-md-4 mb-4 px-5"> 
+                    <div class="card">
+                        <img src="assets/img/nebulosa.jpg" class="card-img-top" height="200px" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Nebulosa de la Tarántula</h3>
+                            <h6>junio 15th, 2024</h6>
+                            <p class="card-text">La última maravilla del Telescopio Espacial Webb es una nueva...</p>
+                            <a href="#" class="btn btn-dark">Ir a ver</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carta Mancha solar -->
+                <div class="col-md-4 mb-4 px-5"> 
+                    <div class="card">
+                        <img src="assets/img/mancha-solar.jpg" class="card-img-top" height="200px" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">AR3664, una mancha solar para la historia</h3>
+                            <h6>junio 8th, 2024</h6>
+                            <p class="card-text">Esta gran mancha solar ha sido la causante de la...</p>
+                            <a href="#" class="btn btn-dark">Ir a ver</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carta Luna -->
+                <div class="col-md-4 mb-4 px-5"> 
+                    <div class="card">
+                        <img src="assets/img/luna.jpg" class="card-img-top" height="200px" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Crateres de la luna</h3>
+                            <h6>junio 1st, 2024</h6>
+                            <p class="card-text">Las dorsa (nótese que es una palabra plural) son crestas...</p>
+                            <a href="#" class="btn btn-dark">Ir a ver</a>
+                        </div>
+                    </div>
+                </div>
+         
+        </div> 
+  
+
+</div>
+<!--Cierre Sección fotografías -->
+
+
+<!-- Sección nosotros -->
+<section class="contenedor-nosotros-inicio mb-5 ">
+
+   
+        <img class="img-fluid fondo-banner" src="assets/img/fondo-nosotros-inicio.png" alt="Planeta tierra"  />
+ 
+            <div class="promo-nosotros text-center ps-5">
+                <div class="col-md-6">
+                    <h2>PASIÓN POR LA <span>ASTRONOMÍA</span></h2>  
+                    <p>Somos apasionados por la astronomía. Por lo que se nos hizo indispensable contar con un rinconcito en internet para poder entregar y mostrar las maravillas de nuestro universo.</p>
+                    <a class="btn" href="#">CONÓCENOS</a>
+                 </div>
+            </div>
+                
+</section>
+<!-- Cierre Sección nosotros -->
+
+</main>
+
+<footer>
+
+    <div class=" footer container text-white pt-5 pb-4 text-center text-md-start">
+        <div class="row text-center text-md-start">
+    
+           <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 ">
+                <a class="logo-footer" href="">EXISTENCE-COSMIC</a>
+           </div>
+                <!-- Footer parte iconos redes-->
+           <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 d-flex justify-content-end iconos-footer">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/@NASA" target="_blank" class="text-dark"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/KevinLafertte" target="_blank" class="text-dark"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="text-dark"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+           </div>
+              <!-- Cierre Footer parte iconos redes-->
+    
+           <hr class="mb-3 mt-2">
+        
+           <!-- Footer parte nosotros-->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h5>
+                <hr class="mb-4">
+                <p>Nuestra pasión por el cosmos nos impulsa a mostrarle al mundo lo maravilloso que es. Entregando en nuestro blog continuamente fotografías asombrosas del universo y a la vez entregando un catalogo de telescopios al mejor precio.</p>
+            </div>
+            <!-- Footer cierre parte nosotros-->
+             
+            <!-- Footer contenido descargablle (pdfs)-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Descargas</h5>
+                <hr class="mb-4">
+                <p><a href="https://www.sea-astronomia.es/sites/default/files/100_conceptos_astr.pdf" target="_blank">100 Conceptos
+                básicos de Astronomía</a></p>
+                <p><a href="https://asset.conrad.com/media10/add/160267/c1/-/es/000860608ML11/instrukcja-obslugi-860608-teleskop-lustrzany-bresser-optik-pollux-1501400mm.pdf" target="_blank">Manual de astronomía</a></p>
+                <p><a href="https://www.artenocturno.com/descargas/El%20Arte%20de%20la%20Astrofotografi%CC%81a%20de%20Paisaje.pdf" target="_blank">El arte de la astrofotografía</a></p>
+            </div>
+             <!--Cierre Footer contenido descargablle (pdfs)-->
+    
+             <!--Footer contacto-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <li class="fas fa-home me-1"></li> Chile, el mejor pais de chile 1998
+                </p>
+                <p>
+                    <li class="fas fa-envelope m-1"></li>exisce@gmail.com
+                </p>
+                <p>
+                    <li class="fas fa-phone me-1"></li> + 32 2235254
+                </p>
+            </div>
+             <!--Cierre Footer contacto-->
+            <hr class="mb-4">
+    
+        
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>  
+</body>
+</html>

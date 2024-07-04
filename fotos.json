@@ -1,0 +1,21 @@
+[
+    {
+        "id" : "1",
+        "nombre" : "Cuasar",
+        "foto" : "https://live.staticflickr.com/65535/53830239416_098a78bfa3_c.jpg",
+        "descripcion" : "Tercer lugar"
+        
+
+    }, {
+        "id" : "2",
+        "nombre" : "Nebulosa del cangreso",
+        "foto" : "https://live.staticflickr.com/65535/53766524066_630e894ea4_c.jpg",
+        "descripcion" : "segundo lugar"
+    }, {
+        "id" : "3",
+        "nombre" : "NGC2413",
+        "foto" : "https://live.staticflickr.com/65535/53515419863_eb366a6c04_z.jpg",
+        "descripcion" : "Primer lugar lugar"
+    }
+]
+

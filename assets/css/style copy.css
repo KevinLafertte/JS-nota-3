@@ -1,0 +1,654 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #000!important;
+    font-family: "Montserrat", sans-serif!important;
+    
+}
+/*Fin parámetros iniciales*/
+
+
+
+/*Navbar*/
+nav {
+    position: relative;
+    background-color: #000;
+    min-height: 70px;
+}
+
+.navbar-nav a{
+    color: #fff;
+   font-size: 15px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-decoration: none;
+   
+}
+
+.navbar-nav a:focus{
+    color: #fff;
+}
+
+.navbar-light a:hover{
+    color: #c8b6ff;
+}
+
+
+.navbar-brand{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:focus{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*Cierre Navbar*/
+
+/*Botones*/
+a.btn{
+    color: #fff;
+    background-color: #906BFF;
+    box-shadow: 10px 5px 5px #010E37;
+    transition: color 0.1s, box-shadow 0.1s, transform 0.5s;
+}
+
+a.btn:hover{
+    background-color: #161a1d;
+    box-shadow: 10px 5px 5px #050D2C;
+     transform: translate(2px, -5%);
+}
+
+.inputDecorado{
+    background-color: black;
+    border: 2px solid #906BFF;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 5px;
+}
+
+.inputDecorado::placeholder{
+    color: #fff;
+}
+
+/*Fin Botones*/
+
+
+
+
+
+
+
+
+
+
+/*Banner inicio*/
+.contenedor-banner {
+    width: 100%;
+    position: relative;
+}
+
+.contenedor-banner img {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.promo{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+   color:#fff;
+    padding: 10px 50px 10px 10px;
+}
+
+.promo h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.promo h1 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 10px;
+
+}
+
+.promo p {
+    font-size: 1.1rem;
+}
+/*Fin banner inicio*/
+
+
+
+.plutonFome{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+   color:#fff;
+    padding: 10px 50px 10px 10px;
+}
+
+.plutonFome h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.plutonFome h1 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 10px;
+
+}
+
+.plutonFome p {
+    font-size: 1.1rem;
+}
+
+
+
+.contenedor-ventana {
+    width: 100%;
+    position: relative;
+    margin-bottom: 400px!important;
+
+}
+
+.contenedorTituloAnimacion{
+    position: relative;
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+.tituloAnimacion{
+    position: absolute;
+    color:#fff;
+    top: 10px;
+   
+}
+
+.tituloAnimacion h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.tituloAnimacion h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 10px;
+
+}
+
+.tituloAnimacion p {
+    font-size: 1.1rem;
+}
+
+.ventanaConfig{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color:#fff;
+    padding: 10px 50px 10px 10px;
+}
+
+.ventanaConfig h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.ventanaConfig h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 5px;
+
+}
+
+.ventanaConfig p {
+    font-size: 1.1rem;
+}
+
+
+.animacionContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.agujeroNegro{
+    position: relative;
+    z-index: 200;
+}
+
+.agujero{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tierra{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    transition: transform 6s;
+}
+
+.marte{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transition: transform 11s;
+}
+
+.jupiter{
+    position: absolute;
+    top: 70%;
+    right: 36%;
+    transition: transform 7.5s;
+}
+
+.saturno{
+    position: absolute;
+    top: 2%;
+    left: 36%;
+    transition: transform 8s;
+}
+
+.urano{
+    position: absolute;
+    top: 30%;
+    right: 80%;
+    transition: transform 13s;
+}
+
+.neptuno{
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transition: transform 20s;
+}
+
+#mensajeNuevo{
+    position: absolute;
+    color: #fff;
+    top: 10%;
+   left: 20%;
+
+}
+
+.preguntasContenedor{
+    position: relative;
+    margin-top: 150px;
+}
+
+.preguntasConfig{
+    color:#fff;
+}
+
+#botonEdad{
+    margin-left: 50px;
+}
+
+
+    a.btnEspecial{
+        color: #fff;
+        background-color: #906BFF;
+        box-shadow: 10px 5px 5px #010E37;
+        transition: color 0.1s, box-shadow 0.1s, transform 0.5s;
+    }
+    
+    a.btnEspecial:hover{
+        background-color: #161a1d;
+        box-shadow: 10px 5px 5px #050D2C;
+         transform: translate(2px, -5%);
+    }
+
+
+.preguntasConfig h2{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.preguntasConfig h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 5px;
+
+}
+
+.preguntasConfig p{
+    font-size: 1.1rem;
+
+}
+
+
+.presentacionJson{
+    color:#fff;
+}
+
+.presentacionJson h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.presentacionJson h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 5px;
+}
+
+.presentacionJson p{
+    font-size: 1.1rem;
+}
+
+
+.contenedorPresentacionJson{
+    position: relative;
+    margin-top: 300px;
+}
+
+.jsonContenedor{
+    position: relative;
+    width: 100%;
+}
+
+/*Sección Productos (venta telescópios*/
+.contenedor-banner-productos {
+    width: 100%;
+    position: relative;
+
+}
+
+.contenedor-banner-productos img {
+    min-width: 60%;
+    max-width: 60%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.promo-productos{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    text-align: end;
+    color:#fff;
+    padding: 10px 50px 10px 10px;
+}
+
+.promo-productos h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.promo-productos h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 5px;
+
+}
+
+.promo-productos p {
+    font-size: 1.1rem;
+}
+/*Fin Sección Productos (venta telescópios*/
+
+
+/*Sección entradas últimas fotos*/
+.card{
+    transition: .5s ease-in-out;
+    width: 22rem;
+    background-color: #010E16!important;
+    color: #fff!important;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.6);
+
+}
+
+.card:hover{
+    background-color: #181E44!important;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.6);
+    transform: translateY(-15px);
+}
+
+
+#posicionUltimasFotos{
+    margin-top: 150px!important;
+}
+
+.ultimasFotos h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.ultimasFotos h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 10px;
+
+}
+/*Fin Sección entradas últimas fotos*/
+
+
+/*Sección nosotros*/
+.contenedor-nosotros-inicio {
+    width: 100%;
+    position: relative;
+}
+
+.contenedor-nosotros-inicio img {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.promo-nosotros{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color:#fff;
+    padding: 10px 50px 10px 10px;
+}
+
+.promo-nosotros h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.promo-nosotros h2 span{
+    -webkit-text-fill-color: #c8b6ff;
+    letter-spacing: 10px;
+
+}
+
+.promo-nosotros p {
+    font-size: 1.1rem;
+}
+/*Fin sección nosotros*/
+
+
+/*Sección footer*/
+.footer{
+    background-color: #000!important;
+ 
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.logo-footer{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo-footer:hover{
+    color: #c8b6ff;
+}
+
+.fab{
+    color: #fff;
+    font-size: 30px!important;
+    transition: 0.5s;
+}
+
+.fab:hover{
+    color: #c8b6ff;
+    transform: translate(2px, -10%);
+}
+
+.footer h5{
+ 
+    color: #c8b6ff;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.footer a:hover{
+    color: #c8b6ff;
+}
+/*Fin Sección footer*/
+
+
+
+/*Sección responsive media queries*/
+@media only screen and (max-width : 900px) {
+        
+    .promo{
+        position: absolute;
+        top: 40%;
+        color:#fff;
+        text-align: center;
+        padding: 10px 50px 10px 10px;
+    }
+
+    .promo h1{
+        font-size:1.7rem;
+    }
+
+    .promo p{
+        font-size:1rem;
+    }
+    
+
+    .promo-productos{
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    color:#fff;
+    text-align: center!important;
+    padding: 10px 50px 10px 10px;
+    }
+
+    .promo-productos h2{
+        font-size:1.7rem;
+        
+    }
+
+    .promo-productos p{
+        font-size:1rem;
+    }
+
+    .card{
+        margin-bottom: 70px;
+    }
+
+
+    #posicion-card{
+        margin-left: 15px;
+    }
+    
+    .ultimasFotos h2{
+        font-size: 1.6rem;
+    }
+
+    .promo-nosotros h2{
+        font-size: 1.7rem;
+
+    }
+
+    .promo-nosotros{
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    color:#fff;
+    padding: 10px 50px 10px 10px;
+    }
+  
+    .iconos-footer ul{
+     padding-right: 38%;
+    }
+
+    }
+
+
+    @media (min-width:768px) and (max-width:1399px){
+
+        #posicion-card{
+
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+            }
+
+        .card{
+            padding: 0;
+            margin: 0;
+            width: 300px;
+            height: 300px;
+            }
+
+        .promo-productos{
+            position: absolute;
+            top: 40%;
+            right: 30px;
+            color:#fff;
+            padding: 10px 50px 10px 10px;
+            }
+
+         .promo-productos h2{
+                font-size: 2rem;
+            }
+
+            .ultimasFotos h2{
+                font-size: 2rem;
+            }
+
+
+            .promo-nosotros h2{
+                font-size:2rem;
+            }
+
+            .promo-nosotros{
+                position: absolute;
+                top: 10%;
+
+                }
+    }
+/*Fin sección media queries*/

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cosmic-Existence</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            
+        </div>
+    </nav>
+</header>
+
+<main>
+  
+    <section class="contenedor-banner">
+
+            <img class="img-fluid fondo-banner" src="assets/img/fondodegradado.png" alt="Planeta neptuno"  />
+                <div class="promo">
+                    <div class="col-md-6">
+                        <h1>Cosmic - <span>Existence</span></h1>  
+                        <input class="inputDecorado" type="text" id="bienvenidaInput" placeholder="Ingresa tu nombre">
+                        <p id="bienvenidaNombre"></p>
+                        <a onClick="return confirm('ANTES DE COMENZAR A INTERACTUAR CON EL SITIO, DEBE COMPRENDER QUE ESTE ES UN DEMO DE JAVASCRIPT, EN DONDE SE IRAN MOSTRANDO DIVERSAS FUNCIONES DE JAVASCRIPT SIN MAS PROPÒSITO QUE DEMOSTRAR SUS CUALIDADES. Como por ejemplo este mensaje que te ha salido sobre el manejo del BOM. Ahora si, ¡Continuemos!. P.S. Vuelve a mirar el area en donde aprestaste el botòn una vez se cierre esta notificaciòn')" id="bienvenida" class="btn" href="#">Apriètame</a>
+                     </div>
+                </div>
+                    
+    </section>
+
+    
+    <section class="contenedor-banner-productos  mb-5 pb-5 " >
+    
+        <img class="img-fluid fondo-banner" src="assets/img/imagen_inicio_1-degradado3.png" alt="Planeta saturno"  />
+            <div class="promo-productos"  data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-12 mx-auto">
+                    <h2>Los intestinos de tu <span>dispotisivo</span></h2>
+                    <p class="parrafoDispositivo">Aprieta el boton para saber con detalles la info al detalle de tu dispositivo</p>
+                    <p id="infoNavegadorResultado"></p>
+                    <a id="infoNavegador" class="btn">Mostrar</a>
+                </div>
+            </div>  
+    </section>
+
+
+
+<section class="contenedor-banner mt-5 mb-5 pb-5">
+    
+
+            <img id="cambiarJupiter" class="img-fluid fondo-banner" src="assets/img/pluton.jpg" alt="Planeta neptuno"  />
+       
+            <div class="plutonFome" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-8 mx-auto">
+                    <h1 id="jupiter"><span>Plutòn</span></h1>
+                    <p id ="jupiterParrafo">No sè tù, pluton me gusta, pero la verdad prefeririria <br>
+                        ver otro planeta. ¿Què opinas?.<br>
+                        aprieta el botòn de abajo si prefieres cambiarlo.
+                    </p>
+                    <a id="pluton" class="btn">Cambiar</a>
+                </div>
+            </div>
+ 
+</section>
+
+
+
+
+<section class="contenedor-ventana mt-5 pt-5 mb-5 pb-5  ">
+    
+        <div class=" col-md-12 ventanaConfig">
+            <div class="col-md-12 mx-auto">
+                <h2>Aprieta el botòn de abajo para abrir una nueva <span>ventana</span></h2>
+                <p>Al apretar el botòn se abrirà una nueva pantalla con ancho y alturas defininidos. Despuès de 7 segundos se cerrarà y se abrirà la pàgina del excel (la entrega de este trabajo). Debes volver a apretar el link de este sitio para volver a continuar con el recorrido</p>
+                <a id="ventana" class="btn">Mostrar ventana</a>
+            </div>
+        </div>  
+</section>
+
+
+<section class="contenedorTituloAnimacion">
+    <div class="row mx-auto">
+            <div class=" col-md-12 tituloAnimacion text-center mb-5 pb-5">
+                
+                    <h2>¿Sabes lo que ocurrirìa si nos acercaramos a un agujero <span>negro</span>?</h2>  
+                    <p>Aprieta el botòn bajo tu propia responsabilidad...</p>
+                    <a id="animacion"class="btn">No me aprietes :(</a>
+            </div>
+    </div>
+</section>
+
+<section class="container-fluid animacionContenedor">
+
+    <div class="agujeroNegro">
+
+        <img class="agujero" src="assets/img/agujero negro.jpg" alt="Agujero negro">
+
+        <div class="tierra"> <img src="assets/img/tierra.png" width="150" height="90" alt="Planeta tierra"></div>
+
+        <div class="jupiter"> <img src="assets/img/JUPITER.png" width="320" height="200" alt="Planeta jupiter"></div>
+
+        <div class="saturno"> <img src="assets/img/SATURNO.png" width="350" height="200" alt="Planeta saturno"></div>
+
+        <div class="neptuno"> <img src="assets/img/neptuno.png" width="150" height="110" alt="Planeta neptuno"></div>
+
+        <div class="urano"> <img src="assets/img/urano.png" width="130" height="110" alt="Planeta urano"></div>
+
+        <div class="marte"> <img src="assets/img/marte.png" width="120" height="70" alt="Planeta urano"></div>
+
+        <h2 id="mensajeNuevo"></h2>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="container preguntasContenedor">
+    <div class="row mx-auto">
+
+            <div class="col-md-6 mx-auto text-center preguntasConfig">
+                <h2>¿Sabes cuanta <span>vida</span> te queda?</h2>
+                <p >Pulsa el botòn para saber màs</p>
+                <a class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Pulsame</a>
+
+                <div class="offcanvas offcanvas-top text-start text-bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                        <h6 class="offcanvas-title" id="offcanvasTopLabel">¿No te sucede que al mirar al cielo y darte cuenta de la inmensidad y lo misterioso que es el universo y la existencia en si misma, le quita peso a los problemas que podriamos tener?.<br>
+                        Bueno, a muchos sì. Aquello te hace pensar en lo èfìmera que son nuestras vidas. Por ello, me gustarìa hacerte consciente de cuanta vida te quedarìa a partir de ahora, suponiento que llegues a vivir hasta los 95 años.<br>
+                     ingresa tu edad para saber cuanta vida te queda en dìas, semanas y meses</h6>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body-lg pb-5">
+                   
+                        <div class="mb-3">
+                            <label for="inputText" class="form-label">Edad:</label>
+                            <input id="edadInput" type="text" class="form-control-sm" id="inputText" placeholder="Ingresa tu edad">
+                            <h2 id="resultadoEdad"></h2>
+
+                            <button id="botonEdad" type="button" class="btn btn-warning">Guardar</button>
+                        </div>
+                        
+                 
+                    </div>
+                </div>
+            </div>
+         
+
+       
+            <div class="col-md-6 mx-auto text-center preguntasConfig">
+                <h2>Descubre lo que hay en este botòn, podrìas tener <span>suerte...</span></h2>
+                <p>Pulsalo para ver què sucede</p>
+                <p></p>
+                <a class="btn" id="liveToastBtn">TOAST</a>
+
+                <div class="toast-container">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                    <img src="assets/img/fugaz.jpg" width="250px" height="100px" class="rounded me-5" alt="...">
+                    <strong class="me-auto">¡¡UNA ESTRELLA FUGAZ, RÀPIDO PIDE UN DESEO QUE DESAPARECERÀ PRONTO!!</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                    NO TE PIERDAS LA OPORTUNIDAD
+                    </div>
+                </div>
+                </div>
+       
+           </div>
+</section>
+
+
+
+<section class="contenedorPresentacionJson">
+    <div class="row mx-auto">
+            <div class=" col-md-12 presentacionJson text-center">
+                
+                    <h2>Pulsa el boton para traer las mejores <span>fotos</span> de la semana</h2>  
+                    <p>Aquì encontraràs las fotos mejores evaluadas</p>
+                    <a id="botonJson" class="btn">Mostrar</a>
+            </div>
+    </div>
+</section>
+
+
+
+<section class="container jsonContenedor mt-5 pt-5 ">
+                
+                <div id="llamadoJson" class=" p-4"></div>
+</section>
+
+
+
+
+<footer>
+
+    <div class=" footer container text-white pt-5 pb-4 text-center text-md-start">
+        <div class="row text-center text-md-start">
+    
+           <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 ">
+                <a class="logo-footer" href="">EXISTENCE-COSMIC</a>
+           </div>
+                <!-- Footer parte iconos redes-->
+           <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 d-flex justify-content-end iconos-footer">
+                <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/@NASA" target="_blank" class="text-dark"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/KevinLafertte" target="_blank" class="text-dark"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="text-dark"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+           </div>
+              <!-- Cierre Footer parte iconos redes-->
+    
+           <hr class="mb-3 mt-2">
+        
+           <!-- Footer parte nosotros-->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h5>
+                <hr class="mb-4">
+                <p>Nuestra pasión por el cosmos nos impulsa a mostrarle al mundo lo maravilloso que es. Entregando en nuestro blog continuamente fotografías asombrosas del universo y a la vez entregando un catalogo de telescopios al mejor precio.</p>
+            </div>
+            <!-- Footer cierre parte nosotros-->
+             
+            <!-- Footer contenido descargablle (pdfs)-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Descargas</h5>
+                <hr class="mb-4">
+                <p><a href="https://www.sea-astronomia.es/sites/default/files/100_conceptos_astr.pdf" target="_blank">100 Conceptos
+                básicos de Astronomía</a></p>
+                <p><a href="https://asset.conrad.com/media10/add/160267/c1/-/es/000860608ML11/instrukcja-obslugi-860608-teleskop-lustrzany-bresser-optik-pollux-1501400mm.pdf" target="_blank">Manual de astronomía</a></p>
+                <p><a href="https://www.artenocturno.com/descargas/El%20Arte%20de%20la%20Astrofotografi%CC%81a%20de%20Paisaje.pdf" target="_blank">El arte de la astrofotografía</a></p>
+            </div>
+             <!--Cierre Footer contenido descargablle (pdfs)-->
+    
+             <!--Footer contacto-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <li class="fas fa-home me-1"></li> Chile, el mejor pais de chile 1998
+                </p>
+                <p>
+                    <li class="fas fa-envelope m-1"></li>exisce@gmail.com
+                </p>
+                <p>
+                    <li class="fas fa-phone me-1"></li> + 32 2235254
+                </p>
+            </div>
+             <!--Cierre Footer contacto-->
+            <hr class="mb-4">
+    
+        
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>  
+</body>
+</html>
