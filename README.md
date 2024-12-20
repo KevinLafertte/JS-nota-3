@@ -1,2 +1,2 @@
-# JS-nota-3
+# Jugando con JavaScript
 JS nota 3
